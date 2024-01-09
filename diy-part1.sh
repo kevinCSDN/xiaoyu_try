@@ -24,7 +24,7 @@ rm -rf feeds/luci/themes/luci-theme-argon
 
 
 
-#克隆passwall环境插件
+#克隆passwall环境插件 单独克隆插件有助于成功，前面拉取kenzo的small库作为依赖就没编译成功
 git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pwpage
 
 #克隆的源码放在small文件夹,预先建立small文件夹
