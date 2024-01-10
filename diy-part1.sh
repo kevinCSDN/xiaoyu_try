@@ -15,7 +15,7 @@
 #删除feeds自带mosdns、v2ray-geodata
 rm -rf ./feeds/packages/net/mosdns
 rm -rf feeds/packages/net/v2ray-geodata
-rm -rf feeds/luci/themes/luci-theme-argon
+#rm -rf feeds/luci/themes/luci-theme-argon
 
 
 
@@ -34,8 +34,8 @@ pushd package/small
 #克隆源码
 
 #passwall2
-git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
-#git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
+#git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git
+git clone -b main --depth 1 https://github.com/xiaorouji/openwrt-passwall.git
 #mosdns
 #git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 #git clone --depth=1 https://github.com/fw876/helloworld.git
